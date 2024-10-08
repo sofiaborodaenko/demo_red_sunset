@@ -23,7 +23,8 @@ body {
     opacity: 0.5;
 }
 
-#globe {
+#globe img{
+    width: 6.3vw;
     position: absolute;        
     height: auto;        
     top: 64vh;            
@@ -33,16 +34,18 @@ body {
     
 }
 
-#spreadsheet {
+#spreadsheet img {
+    width: 4vw;
     position: absolute;         
     height: auto;        
     top: 62vh;            
-    left: 50.5vw;           
+    left: 50.2vw;           
     transform: translate(-50%, -50%);  
     cursor: pointer;
 }
 
-#newspaper {
+#newspaper img {
+    width: 7.5vw;
     position: absolute;         
     height: auto;        
     top: 76vh;            
@@ -51,30 +54,33 @@ body {
     cursor: pointer;
 }
 
-#phone {
+#phone img {
+    width: 3.3vw;
     position: absolute;         
     height: auto;        
     top: 64vh;            
-    left: 54vw;           
+    left: 53.5vw;           
     transform: translate(-50%, -50%);  
     cursor: pointer;
 }
 
-#policyfolders {
+#policyfolders img{
+    width: 7.5vw;
     position: absolute;         
     height: auto;        
     top: 61vh;            
-    left: 59vw;           
+    left: 58.5vw;           
     transform: translate(-50%, -50%);  
     cursor: pointer;
 }
 
-#wallchart {
+#wallchart img {
+    width: 6.5vw;
     position: absolute;        
-    height: auto;        
+    height: auto;  
+    transform: translate(-50%, -50%);      
     top: 44vh;            
-    left: 4vw;           
-    transform: translate(-50%, -50%);  
+    left: 4.2vw;            
     cursor: pointer;
     
 }
