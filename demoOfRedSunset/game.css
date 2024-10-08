@@ -27,7 +27,7 @@ body {
     width: 6.3vw;
     position: absolute;        
     height: auto;        
-    top: 64vh;            
+    top: 63vh;            
     left: 23vw;           
     transform: translate(-50%, -50%);  
     margin: 0;
@@ -48,7 +48,7 @@ body {
     width: 7.5vw;
     position: absolute;         
     height: auto;        
-    top: 76vh;            
+    top: 75vh;            
     left: 20vw;           
     transform: translate(-50%, -50%);  
     cursor: pointer;
@@ -58,7 +58,7 @@ body {
     width: 3.3vw;
     position: absolute;         
     height: auto;        
-    top: 64vh;            
+    top: 63.3vh;            
     left: 53.5vw;           
     transform: translate(-50%, -50%);  
     cursor: pointer;
@@ -67,10 +67,10 @@ body {
 #policyfolders img{
     width: 7.5vw;
     position: absolute;         
-    height: auto;        
+    height: auto; 
+    transform: translate(-50%, -50%);         
     top: 61vh;            
     left: 58.5vw;           
-    transform: translate(-50%, -50%);  
     cursor: pointer;
 }
 
