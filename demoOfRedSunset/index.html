@@ -9,32 +9,86 @@
     </head>
 
     <body>
-        <div class="globe" id="globe">
-            <img src="globe.PNG" class="globe" draggable="false">
+        <!--Main Scene Elements-->
+        <div id="mainScene" class="scene">
+            <div class="globe" id="globe">
+                <img src="globe.PNG" class="globe" draggable="false">
+
+            </div>
+
+            <div class="spreadsheet" id="spreadsheet">
+                <img src="spreadsheet.PNG" class="spreadsheet" draggable="false">
+            </div>
+
+            <div class="newspaper" id="newspaper">
+                <img src="newspaper.PNG" class="newspaper" draggable="false">
+            </div>
+
+            <div class="phone" id="phone">
+                <img src="phone.PNG" class="phone" draggable="false">
+            </div>
+
+            <div class="policyfolders" id="policyfolders">
+                <img src="policyfolder.PNG" class="policyfolders" draggable="false">
+            </div>
+
+            <div class="wallchart" id="wallchart">
+                <img src="wallchart.PNG" class="policyfolder" draggable="false">
+            </div>
+        </div>
+
+        <!--Wall chart scene (hidden initially)-->
+
+        <div id="wallChartScene" class="scene" style="display:none;">
+            <!--add objects here-->
+
 
         </div>
 
-        <div class="spreadsheet" id="spreadsheet">
-            <img src="spreadsheet.PNG" class="spreadsheet" draggable="false">
+         <!--News Paper scene (hidden initially)-->
+
+         <div id="newsPaperScene" class="scene" style="display:none;">
+            <!--add objects here-->
+
+
         </div>
 
-        <div class="newspaper" id="newspaper">
-            <img src="newspaper.PNG" class="newspaper" draggable="false">
+        <!--Globe scene (hidden initially)-->
+
+        <div id="globeScene" class="scene" style="display:none;">
+            <!--add objects here-->
+
+
         </div>
 
-        <div class="phone" id="phone">
-            <img src="phone.PNG" class="phone" draggable="false">
+        <!--Phone scene (hidden initially)-->
+
+        <div id="phoneScene" class="scene" style="display:none;">
+            <!--add objects here-->
+
+
         </div>
 
-        <div class="policyfolders" id="policyfolders">
-            <img src="policyfolder.PNG" class="policyfolders" draggable="false">
+        <!--spreadsheet scene (hidden initially)-->
+
+        <div id="spreadsheetScene" class="scene" style="display:none;">
+            <!--add objects here-->
+
+
         </div>
 
-        <div class="wallchart" id="wallchart">
-            <img src="wallchart.PNG" class="policyfolder" draggable="false">
+        <div id="policyFoldersScene" class="scene" style="display:none;">
+            <!--add objects here-->
+
+
         </div>
 
-        <script src="game.js"></script>
+        <!--Shared return button-->
+        <div id="returnButton" class="button" style="display:none;">
+            <button id="return">Return to the Office</button>
+        </div>
+
+        <script type ="module" src="game.js"></script>
     </body>
 
 

@@ -1,4 +1,4 @@
-export function setupWallChart() {
+export function setupGlobe() {
     
     document.getElementById('returnButton').addEventListener('click', handleReturnToMainScene);
 
@@ -9,7 +9,7 @@ export function setupWallChart() {
 
 
 function handleReturnToMainScene() {
-    document.getElementById('wallChartScene').style.display = 'none';
+    document.getElementById('globeScene').style.display = 'none';
 
     document.body.style.backgroundImage = `url("images/gamebackground.PNG")`;
 
